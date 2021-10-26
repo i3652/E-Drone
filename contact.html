@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="full">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body class="about">
+
+    <header>
+        <div class="menu_overlay"></div>
+
+        <nav class="menu">
+            <ul>
+                <li><a class="link_site" href="#test">Entreprise</a></li>
+                <li><a class="link_site" href="#">Produit</a></li>
+                <li><a class="link_site" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="burger_menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <div class="content">
+
+            <div class="content_title">
+                <h1>Contactez <span class="title_blue">nous.</span></h1>
+            </div>
+
+
+
+            <div class="section_contact" id="contact">
+
+
+                <div class="form">
+                    <form class="contact_form" action="contactform.php" method="post" netlify>
+                        <h3>Remplissez le formulaire</h3>
+                            <div class="name_email">
+                                <div class="name">
+                                    <label>Nom</label>
+                                    <input type="text" name="name" placeholder="Nom">
+                                </div>
+                                <div class="email">
+                                    <label>E-mail</label>
+                                    <input type="text" name="mail" placeholder="E-mail">
+                                </div>
+                            </div>  
+                            <div>
+                                <label>Sujet</label>
+                                <input type="text" name="subject" placeholder="Sujet">
+                            </div>
+                            <div>
+                                <label>Votre message</label>
+                                <textarea name="message" placeholder="Message"></textarea>
+                            <div>
+                                <button type="submit" name="submit" class="submit">Envoyer</button>
+                            </div>  
+                    </form>
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
